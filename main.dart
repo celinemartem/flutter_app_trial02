@@ -16,6 +16,7 @@ void main() {
             fontWeight: FontWeight.bold,
             letterSpacing: 2.0,
             color: Colors.grey[600],
+            fontFamily: 'IndieFlower',
           )
         ),
       ),
@@ -26,5 +27,13 @@ void main() {
       ),
     ),
   ));
+
+  class Home extends StatelessWidget {
+    @override
+    Widget build(BuildContext context) {
+      return Container();
+    }
+  }
+  
 }
 
