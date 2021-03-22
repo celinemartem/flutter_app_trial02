@@ -6,12 +6,15 @@ void main() {
       appBar: AppBar(
         title: Text('help me'),
         centerTitle: true,
+        backgroundColor: Colors.red[600],
       ),
       body: Center(
         child: Text('body centered'),
       ),
       floatingActionButton: FloatingActionButton(
+        onPressed: () {},
         child: Text('click'),
+        backgroundColor: Colors.red[600],
       ),
     ),
   ));
