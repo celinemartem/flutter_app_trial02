@@ -17,7 +17,7 @@ class Home extends StatelessWidget {
         ),
         body: Center(
           child: Text(
-            'Centered Text',
+            'please work i am tired',
             style: TextStyle(
               fontSize: 20.0,
               fontWeight: FontWeight.bold,
@@ -29,10 +29,9 @@ class Home extends StatelessWidget {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
-          child: Text('click'),
+          child: Text('next'),
           backgroundColor: Colors.red[600],
         ),
       );
    }
 }
-
